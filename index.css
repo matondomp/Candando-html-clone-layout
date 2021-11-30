@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ebebeb;
+   
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#container{
+     width:100%;
+     margin: 0 20%;
+  
+}
+div.logo{
+    margin-top: 30px;
+    width: 100%;
+    flex: auto;
+}
+.logo img{
+    width: 100%;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+ #header-log img{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+div header ul{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color:rgb(207, 13, 13) ;
+    font-weight: bolder;
+}
+a{
+  text-decoration: none;
+  color: rgb(207, 13, 13) ;
+  border: 4px solid rgb(207, 13, 13);
+  border-radius: 10px;
+  padding: 20px;
+  transition: background 1s ;
+}
+ul li{
+  margin-left: 60px;
+  cursor: pointer;
+}
+ul a:hover{
+  background: rgb(207, 13, 13) ;;
+  color:white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+     margin-top: 20px;
+     grid-gap: 20px;
+}
+
+.imgs img{
+   width: 100%;
+   height: 400px;
+}
+#content img:hover{
+   opacity: 0.5;
+}
+#content div:nth-child(n+4){
+    margin-top: 50px;
+}
+div.card_1{
+    background-color: #3d3d3d;
+    transition: background-color 2s ;
+ }
+ #content div{
+   
+    position: relative;
+ }
+ #content article{
+   position: absolute;
+   top: 50%;
+   right:  40%;
+   font-size: 20px;
+  
+ }
+
+ div#content {
+    width:100%;
+    height: 350px;
+    transition: background-color 2s ;
+    
+ }
+ div.card_2{
+     background-color: #3d3d3d;
+ }
+ div.card_3{
+    background-color: #3d3d3d;
+ }
+ div.card_4{
+    background-color: #3d3d3d;
+ }
+ div.card_5{
+    background-color: #3d3d3d;
+ }
+ div.card_6{
+    background-color: #3d3d3d;
+ }
+
+footer{
+     background: red;
+     margin-top:70vh;
+     right: 0;
+     color: white;
+     padding-top:50px
+ }
+ footer ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     list-style: none;
+     font-weight: bolder;
+     font-size: 18px;
+ }
+
+ footer section{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+ footer section img+img{
+     margin-left: 50px;
+ }
+ section img{
+     width: 100px;
+     height: 100px;
+     border-radius: 100%;
+     margin-top: 40px;
+     margin-bottom: 50px;
+ }
